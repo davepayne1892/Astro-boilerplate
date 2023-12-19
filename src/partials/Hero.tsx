@@ -30,7 +30,7 @@ const Hero = () => (
       avatar={
         <img
           className="h-80 w-80"
-          src="public\assets\images\avatartion.png"
+          src="assets\images\avataaars.svg"
           alt="Avatar image"
           loading="lazy"
         />
