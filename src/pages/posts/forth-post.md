@@ -1,8 +1,8 @@
 ---
 layout: '@/templates/BasePost.astro'
-title: 4th Lorem ipsum dolor sit
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
-pubDate: 2020-02-04T00:00:00Z
+title: How AI will* affect QA
+description: There seems to be a lot of talk about AI writing tests. To me this feels like aiming at the low hanging fruit, rather than using AI to expedite feature delivery.
+pubDate: 2023-12-04T00:00:00Z
 imgSrc: '/assets/images/image-post3.jpeg'
 imgAlt: 'Image post 3'
 ---

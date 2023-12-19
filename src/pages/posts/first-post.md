@@ -1,8 +1,8 @@
 ---
 layout: '@/templates/BasePost.astro'
-title: 1st Lorem ipsum dolor sit
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
-pubDate: 2020-02-01T00:00:00Z
+title: Shift left
+description: Shift left is a popular buzz phrase in the QA world. In this post we explore what that means and how far you can actually shift.
+pubDate: 2023-02-01T00:00:00Z
 imgSrc: '/assets/images/image-post7.jpeg'
 imgAlt: 'Image post 7'
 ---
