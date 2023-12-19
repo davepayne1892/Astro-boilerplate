@@ -58,5 +58,8 @@
   "volta": {
     "node": "20.10.0"
   },
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "author": "Ixartz (https://github.com/ixartz)"
 }
