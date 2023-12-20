@@ -24,7 +24,7 @@ const Hero = () => (
           <a className="text-cyan-400 hover:underline" href="/">
             blog
           </a>
-          .
+          . <br /> I last updated this page in December 2023.
         </>
       }
       avatar={

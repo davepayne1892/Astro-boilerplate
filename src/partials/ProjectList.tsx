@@ -26,22 +26,23 @@ const ProjectList = () => (
         category={
           <>
             <Tags color={ColorTags.SKY}>TypeScript</Tags>
-            <Tags color={ColorTags.GREEN}>google-sdk</Tags>
+            <Tags color={ColorTags.EMERALD}>google-sdk</Tags>
             <Tags color={ColorTags.YELLOW}>vitest</Tags>
           </>
         }
       />
       <Project
-        name="End to end testing of inbound contact centre communications"
+        name="E2E testing of inbound contact centre communications"
         description="Utilising various dialogflow cx clients we are able to create a Dialogflow CX agent to play the role of a customer calling in to the contact centre. By placing the calls through the twilio sdk and connecting the call to the Dialogflow CX agent, we are able to interact with DTMF systems, communicate with Virtual Agents, and even hold a conversation with a real human agent."
         link="/"
         img={{ src: '/assets/images/robot.png', alt: 'Chatbot' }}
         category={
           <>
             <Tags color={ColorTags.SKY}>TypeScript</Tags>
-            <Tags color={ColorTags.GREEN}>google-sdk</Tags>
+            <Tags color={ColorTags.EMERALD}>google-sdk</Tags>
             <Tags color={ColorTags.RED}>twilio-sdk</Tags>
-            <Tags color={ColorTags.YELLOW}>vitest</Tags>
+            <Tags color={ColorTags.ORANGE}>Mocha</Tags>
+            <Tags color={ColorTags.ORANGE}>Chai</Tags>
           </>
         }
       />
@@ -54,8 +55,7 @@ const ProjectList = () => (
           <>
             <Tags color={ColorTags.SKY}>TypeScript</Tags>
             <Tags color={ColorTags.VIOLET}>MonoRepo</Tags>
-            <Tags color={ColorTags.ORANGE}>Mocha</Tags>
-            <Tags color={ColorTags.ORANGE}>Chai</Tags>
+            <Tags color={ColorTags.YELLOW}>vitest</Tags>
           </>
         }
       />
