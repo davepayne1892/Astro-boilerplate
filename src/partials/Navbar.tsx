@@ -6,6 +6,8 @@ import {
   Section,
 } from 'astro-boilerplate-components';
 
+import avataaar from '../../public/assets/images/avataaars.svg';
+
 const Navbar = () => (
   <Section>
     <NavbarTwoColumns>
@@ -14,7 +16,7 @@ const Navbar = () => (
           icon={
             <img
               className="mr-1 h-10 w-10 stroke-cyan-600"
-              src="assets\images\avataaars.svg"
+              src={avataaar.src}
               alt="Avatar image"
               loading="lazy"
             />
