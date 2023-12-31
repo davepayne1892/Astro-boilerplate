@@ -4,7 +4,10 @@ import {
   Section,
 } from 'astro-boilerplate-components';
 
-const Hero = () => (
+type IHeroProps = {
+  mostRecentUpdate: string;
+};
+const Hero = (props: IHeroProps) => (
   <Section>
     <HeroAvatar
       title={
@@ -24,7 +27,7 @@ const Hero = () => (
           <a className="text-cyan-400 hover:underline" href="/">
             blog
           </a>
-          . <br /> I last updated this page in December 2023.
+          . <br /> I last updated this page in {props.mostRecentUpdate}.
         </>
       }
       avatar={

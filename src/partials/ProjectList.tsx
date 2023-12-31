@@ -6,7 +6,12 @@ import {
   Tags,
 } from 'astro-boilerplate-components';
 
+// type IProjectListProps = {
+//   postList: string[];
+// };
+
 const ProjectList = () => (
+  // props: IProjectListProps) => (
   <Section
     title={
       <>

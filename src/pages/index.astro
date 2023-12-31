@@ -6,18 +6,20 @@ import { ProjectList } from '@/partials/ProjectList';
 import { RecentPosts } from '@/partials/RecentPosts';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
-import { sortByDate } from '@/utils/Posts';
+import { readableDate, sortByDate } from '@/utils/Posts';
 
 const allPosts = await Astro.glob<IFrontmatter>('./posts/*.md');
+// const allProjects: string[] = [];
 const sortedPosts = sortByDate(allPosts);
 const lastThreePosts = sortedPosts.slice(0, 3);
+const mostRecentUpdate = readableDate(sortedPosts[0]);
 
 const { title } = AppConfig;
 const { description } = AppConfig;
 ---
 
 <Base head={{ title, description }}>
-  <Hero />
-  <ProjectList />
+  <Hero mostRecentUpdate={mostRecentUpdate} />
+  <ProjectList /><!-- projectList={allProjects} /> -->
   <RecentPosts postList={lastThreePosts} />
 </Base>
