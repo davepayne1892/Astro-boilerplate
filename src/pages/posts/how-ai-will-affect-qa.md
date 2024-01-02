@@ -3,10 +3,9 @@ layout: '@/templates/BasePost.astro'
 title: How AI will* affect QA
 description: There seems to be a lot of talk about AI writing tests. To me this feels like aiming at the low hanging fruit, rather than using AI to expedite feature delivery.
 pubDate: 2023-12-04T00:00:00Z
-imgSrc: '/assets/images/image-post3.jpeg'
-imgAlt: 'Image post 3'
+imgSrc: '/assets/images/unsplash-artificial-intelligence.jpg'
+imgAlt: 'Artificial Intelligence - Photo by Growtika on Unsplash'
 ---
-
   *The following blog post is based on the current snapshot of the capabilities of generative AI. These goalposts change rapidly, and we don't really know the ceiling of what can be achieved. Come back in six months to see how wrong I got it.
  
  # AI in code
