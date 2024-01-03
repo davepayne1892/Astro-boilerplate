@@ -7,4 +7,12 @@ imgSrc: '/assets/images/unsplash-devops.jpeg'
 imgAlt: 'Devops - Photo by Growtika on Unsplash'
 ---
 
-Full typography example at [this page](../sixth-post/).
+# DevOps
+# DORA metrics
+## Velocity Metrics
+## Stability Metrics
+# Where does QA fit?
+##
+# What to do if...
+## 
+## Your Velocity scores are lower than your stability ones
